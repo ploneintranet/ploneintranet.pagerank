@@ -26,6 +26,9 @@ docker-run:
 devel: bin/buildout
 	bin/buildout -c buildout.cfg
 
+test:
+	bin/test -s ploneintranet.pagerank
+
 ### helper targets ###
 
 bin/buildout: bin/python2.7
