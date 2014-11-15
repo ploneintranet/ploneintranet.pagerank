@@ -30,6 +30,7 @@ setup(
         'plonesocial.network',
         'plone.api',
         'networkx',
+        'mincemeat',
         # -*- Extra requirements: -*-
     ],
     extras_require={
