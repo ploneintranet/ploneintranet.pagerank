@@ -9,13 +9,18 @@ based on applying personalized PageRank calculations to a Plone social intranet 
 Installation
 ------------
 
-home$ make docker-build
-home$ make docker-run
-app$ make
+Initialize and enter the docker container::
 
-You can then run Plone:
+  home$ make docker-build
+  home$ make docker-run
 
-app$ bin/instance fg
+Run the buildout::
+
+  app$ make
+
+You can then run Plone::
+
+  app$ bin/instance fg
 
 
 PageRank
