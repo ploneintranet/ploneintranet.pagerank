@@ -14,6 +14,7 @@ setup(
     classifiers=[
         "Framework :: Plone",
         "Programming Language :: Python",
+        "Development Status :: 2 - Pre-Alpha",
     ],
     keywords='',
     author='Guido A.J. Stevens',

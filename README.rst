@@ -6,6 +6,8 @@ Personal PageRank for Plone.
 This package prototypes a search personalization strategy for intranets,
 based on applying personalized PageRank calculations to a Plone social intranet system.
 
+Status: incomplete, prototype, work in progress.
+
 Installation
 ------------
 
