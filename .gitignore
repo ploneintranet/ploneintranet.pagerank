@@ -1,0 +1,6 @@
+._*
+*~
+*py?
+*.egg-info
+dist/
+Paste*.egg
