@@ -26,13 +26,13 @@ setup(
     zip_safe=False,
     install_requires=[
         'setuptools',
-        'plonesocial.suite'
         # -*- Extra requirements: -*-
     ],
     extras_require={
         'test': [
             'plone.app.testing',
             'plone.app.robotframework',
+            'plonesocial.suite',
         ]
     },
     entry_points="""
