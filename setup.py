@@ -26,6 +26,8 @@ setup(
     zip_safe=False,
     install_requires=[
         'setuptools',
+        'plonesocial.network',
+        'plone.api',
         # -*- Extra requirements: -*-
     ],
     extras_require={
