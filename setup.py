@@ -28,6 +28,7 @@ setup(
         'setuptools',
         'plonesocial.network',
         'plone.api',
+        'networkx',
         # -*- Extra requirements: -*-
     ],
     extras_require={
