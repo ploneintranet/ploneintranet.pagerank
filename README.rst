@@ -47,6 +47,7 @@ and is able to reduce the whole link structure of the web into a single scalar p
 that is then used to sort search results.
 
 To summarize:
+
 - single PageRank scalar per page
 - incorporates human intent through link "voting"
 - hologram-like reflection of overall web structure
@@ -90,16 +91,19 @@ Fixing intranets
 To remedy this situation we can employ a two-fold strategy:
 
 1. Improve the intranet dataset by:
+
 - increasing the number and diversity of authors
 - increasing the amount of intranet pages
 - increasing link density within the intranet page set
 
 This is achieved by introducing social intranet features, that:
+
 - encourage authorship by microblogging and self-managed teamspaces
 - reduce friction in sharing content (microblogging, commenting, easy upload)
 - gamify the creation of new links (follow, like, tag, comment)
 
 2. Improve the search result relevancy ranking by:
+
 - taking a user's activity into account (document interactions)
 - taking a user's tags of interest into account (topic graph)
 - taking a user's social connections into account (social graph)
@@ -150,6 +154,7 @@ We should try and implement `Personalized PageRank optimization`_ techniques tha
 developed specifically to solve this problem.
 
 Applying this approach implies that:
+
 - most of the computational cost is borne async index-time using scalable map-reduce
 - query-time application involves lookup and application of a per-user per-document boost value
 
